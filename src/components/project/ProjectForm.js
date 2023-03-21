@@ -1,4 +1,7 @@
 import Input from '../form/Input';
+import Select from '../form/Select';
+import SubmitButton from '../form/SubmitButton';
+
 import styles from './ProjectForm.module.css';
 
 function ProjectForm() {
@@ -16,6 +19,7 @@ function ProjectForm() {
         name="budget"
         placeholder="Insert the project price"
       />
+      <Select name="category_id" text="Select category"/>
     </form>
   );
 }
