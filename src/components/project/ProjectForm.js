@@ -4,7 +4,7 @@ import SubmitButton from '../form/SubmitButton';
 
 import styles from './ProjectForm.module.css';
 
-function ProjectForm() {
+function ProjectForm({ btnText }) {
   return(
     <form className={styles.form}>
       <Input 
@@ -20,6 +20,7 @@ function ProjectForm() {
         placeholder="Insert the project price"
       />
       <Select name="category_id" text="Select category"/>
+      <SubmitButton text={btnText}/>
     </form>
   );
 }
