@@ -1,19 +1,21 @@
 {
-  "posts": [
+  "projects": [],
+  "categories": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Infra"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
