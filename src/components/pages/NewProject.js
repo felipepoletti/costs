@@ -4,7 +4,7 @@ import styles from './NewProject.module.css';
 
 function NewProject() {
   
-  const history = useNavigate();
+  const navigate = useNavigate();
 
   function createPost(project) {
     // initialize cost and services
@@ -22,7 +22,7 @@ function NewProject() {
       .then((data) => {
         console.log(data)
         // redirect
-        history('/projects', {message: 'Project created succesfully!'});
+        navigate('/projects', { state: { message: 'Project created succesfully!' }});
       })
     .catch((err) => console.log(err))
   }
