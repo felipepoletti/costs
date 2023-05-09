@@ -5,7 +5,7 @@
       "budget": "50000",
       "category": {
         "id": "2",
-        "name": "Desenvolvimento"
+        "name": "Infra"
       },
       "cost": 0,
       "services": [],
@@ -30,7 +30,7 @@
     },
     {
       "id": 2,
-      "name": "Desenvolvimento"
+      "name": "Development"
     },
     {
       "id": 3,
@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "name": "Planejamento"
+      "name": "Planning"
     }
   ]
 }
