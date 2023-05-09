@@ -4,12 +4,12 @@ import { BsPencil, BsFillTrashFill } from 'react-icons/bs';
 
 function ProjectCard({ id, name, budget, category, handleRemove }) {
   return (
-    <div>
+    <div className={styles.project_card}>
       <h4>{name}</h4>
       <p>
         <span>Budget: </span> ${budget}
       </p>
-      <p>
+      <p className={styles.category_text}>
         <span></span> {category}
       </p>
       <div>
