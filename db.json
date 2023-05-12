@@ -32,6 +32,17 @@
       "cost": 0,
       "services": [],
       "id": 3
+    },
+    {
+      "name": "Planning all the project",
+      "budget": "7000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [
