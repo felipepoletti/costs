@@ -18,8 +18,21 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 900,
+      "services": [
+        {
+          "name": "Create instagram pictures",
+          "cost": "500",
+          "description": "Create instagram pictures to promote the project",
+          "id": "68c8c4e0-4083-4a1d-8314-4610e17d04ab"
+        },
+        {
+          "name": "Create instagram stories",
+          "cost": "400",
+          "description": "Create instagram stories to promote the project",
+          "id": "8e0be6bd-30f7-4daf-b3c5-3b32032ec808"
+        }
+      ],
       "id": 2
     },
     {
