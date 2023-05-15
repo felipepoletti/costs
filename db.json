@@ -53,8 +53,15 @@
         "id": "4",
         "name": "Planning"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 2500,
+      "services": [
+        {
+          "name": "Hire developer",
+          "cost": "2500",
+          "description": "Hire front-end developer",
+          "id": "b736690c-4f7b-4b3e-9cf2-d305614b56c1"
+        }
+      ],
       "id": 4
     }
   ],
